@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+================Variáveis================
+*/
+:root{
+    --cor-background: #121214;
+    --cor02: #E1E1E6;
+    --cor03: #04D361;
+    --cor-formulario: #A8A8A8;
+    --cor-fundo-botão: #8257e5;
+  }
+/*
+==========Configurações Globais==========
+*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body, html{
+    height: 100%;
+}
+/*
+==================Corpo==================
+*/
+body{
+    background: var(--cor-background) url(../imagens/lendo_noticias.jpg) no-repeat top right;
+    background-size: cover;
+}
+/*
+================Cabeçalho================
+*/
+header{
+    background: var(--cor-background);
+}
+header#logo{
+    background: var(--cor-background);
+}
+/*
+=================Conteúdo================
+*/
+main{
+    background-color: var(--cor-background);
+}
