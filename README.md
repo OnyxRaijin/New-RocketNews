@@ -9,7 +9,7 @@
 
 <h3>Observações:</h3>
 <ul>
-    <li> O projeto NÃO possui finalidade comerciais</li> <br>
+    <li> O projeto NÃO possui finalidades comerciais</li> <br>
     <li> Qualquer reinvindicação de direitos autorais basta falar comigo pelo meu github ou instagram. <br>
     (https://instagram.com/onyx..priiv )</li> <br>
 </ul>
