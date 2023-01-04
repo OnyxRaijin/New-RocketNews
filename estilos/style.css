@@ -123,5 +123,11 @@ Media queries têm a função de facilitar o processo da configuração dos elem
     main form{ /*formulário*/
         width: 80%;
     }
+    main form button{ /*botão de enviar*/
+        border-radius: 20em;
+        position: static;
+        margin-top: .5em;
+        width: 10em;
 
+    }
 }
