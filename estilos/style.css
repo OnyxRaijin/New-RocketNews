@@ -3,12 +3,12 @@
 ================Variáveis================
 */
 :root{
-    --cor-background: #121214;
-    --cor02: #E1E1E6;
-    --cor03: #04D361;
-    --cor-letras: #ffffff;
-    --cor-formulario: #A8A8A8;
+    --cor-bg-transparente: #121214aa;
     --cor-fundo-botão: #8257e5;
+    --cor-background: #121214;
+    --cor-formulario: #A8A8A8;
+    --cor-titulos: #04D361;
+    --cor-letras: #ffffff;
   }
 /*
 ==========Configurações Globais==========
@@ -55,12 +55,12 @@ main{
     width: 50%;
 }
 main h2{
-    color: var(--cor03);
+    color: var(--cor-titulos);
     padding-top: 1em;
 
 }
 main h3{
-    color: var(--cor03);
+    color: var(--cor-titulos);
     padding-bottom: 1em;
 }
 main p{
@@ -98,4 +98,19 @@ a.lerMais{
     text-decoration: none;
     margin-top: 4em;
     
+}
+/*
+=================Media queries===============
+*/
+@media screen and (max-width: 768px){
+    main, header{
+        margin: 0.525 auto;
+        width: 95%;
+        background: var(--cor-bg-transparente);
+    }
+    main form{
+        
+        width: 80%;
+    }
+
 }
