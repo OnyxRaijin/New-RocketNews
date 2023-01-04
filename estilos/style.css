@@ -6,6 +6,7 @@
     --cor-background: #121214;
     --cor02: #E1E1E6;
     --cor03: #04D361;
+    --cor-letras: #ffffff;
     --cor-formulario: #A8A8A8;
     --cor-fundo-botão: #8257e5;
   }
@@ -25,20 +26,69 @@ body, html{
 */
 body{
     background: var(--cor-background) url(../imagens/lendo_noticias.jpg) no-repeat top right;
+    font-family: sans-serif;
     background-size: cover;
+    color: var(--cor-letras);
 }
 /*
 ================Cabeçalho================
 */
 header{
     background: var(--cor-background);
+    padding-bottom: 5%;
+    width: 50%;
+    
 }
-header#logo{
+#logo{
     background: var(--cor-background);
+    width: 70%;
 }
 /*
 =================Conteúdo================
 */
 main{
     background-color: var(--cor-background);
+    line-height: 2em;
+    height: 89%;
+    width: 50%;
+}
+main h2{
+    color: var(--cor03);
+    padding-top: 1em;
+
+}
+main h3{
+    color: var(--cor03);
+    padding-bottom: 1em;
+}
+main p{
+    line-height: normal;
+}
+/*
+=================Formulário===============
+*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+main form input{
+    text-align: center;
+    width: 150%;
+    height: 3em;
+}
+
+main form button{
+    background:var(--cor-fundo-botão) ;
+    position: absolute;
+    left: 72.26%;
+    height: 3em;
+    width: 3em;
+    border: 0;
+}
+
+a.lerMais{
+    color: var(--cor-fundo-botão);
+    text-decoration: none;
+    margin-top: 4em;
+    
 }
