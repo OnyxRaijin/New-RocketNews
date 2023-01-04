@@ -1,4 +1,4 @@
-# Projeto RocketNes
+# Projeto RocketNews
 <ul>
     <li>Este projeto foi desenvolvido como um desafio da <a href="https://rocketseat.com.br">Rocketseat</a>.</li> <br>
     <li>Procurei desenvolver esse projeto da forma mais independente possível com a finalidade de aperfeiçoar meus conhecimentos em HTML e CSS</li> <br>
